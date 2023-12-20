@@ -1,0 +1,123 @@
+@media screen and (min-width:980px) and (max-width:1330px) {
+    .header_top {
+        width: 80%;
+    }
+
+    /* home */
+    .Home_top {
+        width: 80%;
+        height: 40px;
+        font-size: 17px;
+    }
+
+    /* 轮播图 */
+    .slideshow {
+        height: 500px;
+    }
+
+    /* 新闻文章 */
+    .article_top {
+        width: 80%;
+        height: 900px;
+    }
+
+    .artivle_title {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .artivle_title>p {
+        color: #007bff;
+        font-size: 34px;
+        border-bottom: 2px solid #007bff;
+
+    }
+
+    .article_middle {
+        width: 100%;
+        height: 83%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* 倒计时 */
+    .time {
+        height: 330px;
+    }
+
+    /* 标题 */
+    .time_title {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        font-size: 34px;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .time_top {
+        width: 80%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    .time_middle {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+
+    /* 事件描述 */
+    .event_top {
+        width: 80%;
+        height: 420px;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .event_left>p {
+        text-align: justify;
+        height: 50%;
+        font-size: 14px;
+    }
+
+    /* 在线展览 */
+
+    .exhibition_top {
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+    }
+
+    /* 票服务部分 */
+    .tickets_top {
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* 版权 */
+    .bottom_top{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100px;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}

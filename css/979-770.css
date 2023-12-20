@@ -1,0 +1,165 @@
+@media screen and (max-width:979px) and (min-width:770px) {
+    .header_top {
+        width: 85%;
+    }
+
+    /* home */
+    .Home_top {
+        width: 85%;
+        font-size: 20px;
+        height: 50px;
+    }
+
+    /* 轮播图 */
+    /* 轮播图 */
+    .slideshow {
+        height: 450px;
+    }
+
+    /* 新闻文章 */
+    .article_top {
+        width: 85%;
+        height: 1600px;
+    }
+
+    .artivle_title {
+        width: 100%;
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .artivle_title>p {
+        color: #007bff;
+        font-size: 34px;
+        border-bottom: 2px solid #007bff;
+
+    }
+
+    .article_middle {
+        width: 100%;
+        height: 83%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .article_middle>li {
+        width: 48%;
+        height: 32%;
+        background-color: #fff;
+    }
+
+    /* 倒计时 */
+     /* 倒计时 */
+     .time {
+        height: 300px;
+    }
+     /* 标题 */
+     .time_title {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        font-size: 34px;
+        color: #fff;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .time_top {
+        width: 85%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+    }
+
+    .time_middle {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+      /* 事件描述 */
+      .event_top {
+        width: 85%;
+        height: 350px;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .event_left>p {
+        text-align: justify;
+        height: 55%;
+        font-size: 13px;
+    }
+
+    /* 在线展览 */
+    .exhibition_top {
+        width: 85%;
+        height: 1300px;
+        margin: 0 auto;
+    }
+    .excepturi_button {
+        width: 100%;
+        height: 8%;
+        display: flex;
+    }
+    .excepturi_count>li {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .excepturi_count {
+        width: 100%;
+        height: 80%;
+    }
+    .excepturi_count>li>div {
+        width: 48%;
+        height: 48%;
+    }
+    .excepturi_middle_count {
+        width: 92%;
+        margin: 0 auto;
+        height: 50%;
+    }
+    .excepturi_middle_count>div {
+        width: 100%;
+        background-color: #c8c8c8;
+        height: 25%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .excepturi_middle_count>div>p>img {
+        width: 70%;
+        height: 70%;
+    }
+    .excepturi_middle_count>div>p{
+        font-size: 16px;
+    }
+    .excepturi_bottom{
+        width: 100%;
+        height: 10%;
+    }
+
+    /* 票服务 */
+    .tickets_top{
+        width: 85%;
+        height: 1500px;
+    }
+    .tickets_top>div{
+        width: 100%;
+        height: 48%;
+    }
+
+    /* 版权 */
+    .bottom_top{
+        width: 85%;
+        margin-top: 50px;
+    }
+}
